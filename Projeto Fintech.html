@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- CSS customizado -->
+  <style>
+    body {
+      background-color: #2E8B57; /* Cor de fundo verde água */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      width: 350px;
+    }
+    .welcome-text {
+      color: #28a745; /* Verde para a frase de boas-vindas */
+      font-size: 1.5rem; /* Tamanho maior para a frase de boas-vindas */
+    }
+    .login-title {
+      font-size: 1.2rem; /* Tamanho menor para o título de login */
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title text-center mb-4 welcome-text">Bem-vindo ao InstaBank</h5>
+      <img src="c:\Users\T-Gamer\OneDrive\Área de Trabalho\Captura de tela 2024-06-24 182135.jpg" alt="c:\Users\T-Gamer\OneDrive\Área de Trabalho\Captura de tela 2024-06-24 182135.jpg" class="img-fluid d-block mx-auto mb-4" style="max-width: 200px;">
+      <h3 class="card-title text-center login-title">Login</h3>
+      <form>
+        <div class="form-group">
+          <label for="username">Usuário</label>
+          <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
+        </div>
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="rememberMe">
+          <label class="form-check-label" for="rememberMe">Lembrar senha</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="keepLoggedIn">
+          <label class="form-check-label" for="keepLoggedIn">Manter conectado</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+      </form>
+      <div class="text-center mt-3">
+        <a href="#" class="btn btn-link">Esqueceu a senha?</a>
+      </div>
+      <div class="text-center mt-3">
+        <p>Não tem uma conta? <a href="#">Cadastre-se aqui</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (opcional, para funcionalidades como dropdowns) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
